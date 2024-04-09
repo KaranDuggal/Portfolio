@@ -9,6 +9,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { NgxTypedJsModule } from 'ngx-typed-js';
+import { DirectivesModule } from './directive/directives.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +22,8 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     NgxTypedJsModule,
     MatButtonModule, 
     MatDividerModule, 
-    MatIconModule
+    MatIconModule,
+    DirectivesModule
   ],
   providers: [
     provideAnimationsAsync()
