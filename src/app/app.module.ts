@@ -10,10 +10,11 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { DirectivesModule } from './directive/directives.module';
+import { CommonComponentModule } from './component/common/common-component.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +24,8 @@ import { DirectivesModule } from './directive/directives.module';
     MatButtonModule, 
     MatDividerModule, 
     MatIconModule,
-    DirectivesModule
+    DirectivesModule,
+    CommonComponentModule
   ],
   providers: [
     provideAnimationsAsync()

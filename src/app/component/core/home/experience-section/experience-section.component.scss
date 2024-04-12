@@ -1,0 +1,97 @@
+.experience__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    align-items: start;
+    text-align: initial;
+}
+.experience-section {
+    display: flex;
+}
+
+.company-name {
+    display: flex;
+    flex-direction: column;
+    /* Arrange company names vertically */
+    justify-content: center;
+    /* Center the company names vertically */
+    align-items: center;
+    /* Center the company names horizontally */
+    font-size: 24px;
+    /* Increase font size */
+
+}
+
+.company-name span {
+    margin-bottom: 10px;
+    /* Add space between company names */
+    cursor: pointer;
+    transition: color 0.3s;
+    /* Add transition effect for color change */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Define the shake animation */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.company-name span:hover {
+    color: var(--first-color);
+    animation: zoomIn 0.3s forwards, shake 0.6s ease-in-out infinite;
+}
+
+.company-name span.active {
+    font-weight: bold;
+    color: var(--second-color);
+    /* Example of styling the active company name */
+    text-decoration: underline; /* Add underline to active company name */
+    font-size: 26px;
+}
+
+
+.company-details {
+    flex: 3;
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.responsibilities {
+    padding-left: 20px;
+}
+
+.responsibilities ul {
+    list-style-type: disc;
+}
