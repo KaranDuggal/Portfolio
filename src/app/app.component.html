@@ -8,6 +8,7 @@
                 <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Experience</a></li>
                 <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
@@ -105,18 +106,22 @@
     <!--===== EXPERIENCE =====-->
     <section class="skills section" id="skills">
         <h2 class="section-title">Experience</h2>
-        <div class="skills__container bd-grid">
-            <div class="company-name">Dazn</div>
+        <div class="experience__container bd-grid">
+            <div class="company-name">
+                @for (company of companies; track companies ) {
+                    <span [ngClass]="{'active' : selectedCompany == company}" (click)="selectedCompany = company">{{company}}</span>
+                }
+            </div>
             <div class="company-details">
                 <div class="details">
-                    <div class="title">Software Engineer</div>
-                    <div class="date">Jan 2020 - Present</div>
+                    <div class="title">{{companyExperience[selectedCompany].position}}</div>
+                    <div class="date">{{companyExperience[selectedCompany].duration}}</div>
                 </div>
                 <div class="responsibilities">
                     <ul>
-                        <li>Developed web applications using HTML, CSS, and JavaScript.</li>
-                        <li>Collaborated with team members to implement new features.</li>
-                        <li>Performed code reviews and provided constructive feedback.</li>
+                        @for (responsibility of companyExperience[selectedCompany].responsibilities; track responsibility ) {
+                            <li>{{responsibility}}</li>
+                        }
                     </ul>
                 </div>
             </div>
