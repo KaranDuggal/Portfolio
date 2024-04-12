@@ -3,30 +3,28 @@
     column-gap: 2rem;
     align-items: start;
     text-align: initial;
-}
-.experience-section {
-    display: flex;
-}
-
-.company-name {
-    display: flex;
-    flex-direction: column;
-    /* Arrange company names vertically */
-    justify-content: center;
-    /* Center the company names vertically */
-    align-items: center;
-    /* Center the company names horizontally */
-    font-size: 24px;
-    /* Increase font size */
-
-}
-
-.company-name span {
-    margin-bottom: 10px;
-    /* Add space between company names */
-    cursor: pointer;
-    transition: color 0.3s;
-    /* Add transition effect for color change */
+    .company-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        span {
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+            &:hover {
+                color: var(--first-color);
+                animation: zoomIn 0.3s forwards, shake 0.6s ease-in-out infinite;
+            }
+        }
+        .active {
+            font-weight: bold;
+            color: var(--second-color);
+            font-size: 26px;
+        }
+    }
+    
 }
 
 @keyframes zoomIn {
@@ -35,7 +33,7 @@
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(7);
     }
 }
 
@@ -62,36 +60,18 @@
     }
 }
 
-.company-name span:hover {
-    color: var(--first-color);
-    animation: zoomIn 0.3s forwards, shake 0.6s ease-in-out infinite;
-}
-
-.company-name span.active {
-    font-weight: bold;
-    color: var(--second-color);
-    /* Example of styling the active company name */
-    text-decoration: underline; /* Add underline to active company name */
-    font-size: 26px;
-}
-
-
 .company-details {
     flex: 3;
-}
-
-.details {
-    margin-bottom: 10px;
-}
-
-.title {
-    font-weight: bold;
-}
-
-.responsibilities {
-    padding-left: 20px;
-}
-
-.responsibilities ul {
-    list-style-type: disc;
+    .details {
+        margin-bottom: 10px;
+        .title {
+            font-weight: bold;
+        }
+    }
+    .responsibilities {
+        padding-left: 20px;
+        ul {
+            list-style-type: disc;
+        }
+    }
 }
