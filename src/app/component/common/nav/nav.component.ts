@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './nav.component.scss'
 })
 export class NavComponent {
-
+  isSidebarVisible:boolean = false;
+  changeSidebarStatus(){
+    this.isSidebarVisible = !this.isSidebarVisible
+  }
 }
