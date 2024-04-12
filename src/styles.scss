@@ -156,57 +156,6 @@ img {
     right: 0;
 }
 
-/*===== HOME =====*/
-.home {
-    position: relative;
-    row-gap: 5rem;
-    padding: 4rem 0 5rem;
-
-    &__data {
-        align-self: center;
-    }
-
-    &__title {
-        font-size: var(--big-font-size);
-        margin-bottom: var(--mb-5);
-
-        &-color {
-            color: var(--first-color);
-        }
-    }
-
-    &__social {
-        display: flex;
-        flex-direction: column;
-
-        &-icon {
-            width: max-content;
-            margin-bottom: var(--mb-2);
-            font-size: 1.5rem;
-            color: var(--second-color);
-
-            &:hover {
-                color: var(--first-color);
-            }
-        }
-    }
-
-    &__img {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 260px;
-    }
-
-    &__blob {
-        fill: var(--first-color);
-
-        &-img {
-            width: 360px;
-        }
-    }
-}
-
 /*BUTTONS*/
 .button {
     display: inline-block;
@@ -334,37 +283,9 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
-    .home {
-        row-gap: 2rem;
 
-        &__img {
-            width: 200px;
-        }
-    }
-}
 
 @media screen and (min-width: 576px) {
-    .home {
-        padding: 4rem 0 2rem;
-
-        &__social {
-            padding-top: 0;
-            padding-bottom: 2.5rem;
-            flex-direction: row;
-            align-self: flex-end;
-
-            &-icon {
-                margin-bottom: 0;
-                margin-right: var(--mb-4);
-            }
-        }
-
-        &__img {
-            width: 300px;
-            bottom: 25%;
-        }
-    }
 
     .about__container {
         grid-template-columns: repeat(2, 1fr);
@@ -404,15 +325,6 @@ img {
         }
     }
 
-    .home {
-        padding: 8rem 0 2rem;
-
-        &__img {
-            width: 400px;
-            bottom: 10%;
-        }
-    }
-
     .about {
         &__container {
             padding-top: 2rem;
@@ -443,16 +355,7 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .home {
-        padding: 10rem 0 2rem;
-
-        &__img {
-            width: 450px;
-        }
-    }
 }
-
 
 .underline {
     text-decoration: none;
