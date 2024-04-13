@@ -1,3 +1,7 @@
-<app-nav></app-nav>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+@if(loadingVisibility){
+    <app-loading></app-loading>
+}@else{
+    <app-nav></app-nav>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+}
