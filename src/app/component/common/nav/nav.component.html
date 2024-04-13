@@ -2,12 +2,12 @@
     <div class="bd-grid">
         <ul>
             <li><a href="#home">K.D</a></li>
-            <li class="hideOnMobile underline"><a href="#home">Home</a></li>
-            <li class="hideOnMobile underline"><a href="#about">About</a></li>
-            <li class="hideOnMobile underline"><a href="#skills">Skills</a></li>
-            <li class="hideOnMobile underline"><a href="#contact">Experience</a></li>
-            <li class="hideOnMobile underline"><a href="#work">Work</a></li>
-            <li class="hideOnMobile underline"><a href="#contact">Contact</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('home')">Home</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('about')">About</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('skills')">Skills</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('experience')">Experience</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('work')">Work</a></li>
+            <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('contact')">Contact</a></li>
             <li class="menu-btn" (click)="changeSidebarStatus()"><a><i class='bx bx-menu'></i></a></li>
         </ul>
         <ul class="sidebar" [ngStyle]="isSidebarVisible ? {display:'flex'} : {display:'none'}">
