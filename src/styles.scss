@@ -28,6 +28,10 @@ body {
     --hue-color: 224;
     --first-color: hsl(var(--hue-color), 89%, 60%);
     --second-color: hsl(var(--hue-color), 56%, 12%);
+    --title-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 35%);
+    --body-color: hsl(0, 0%, 95%);
+    --container-color: hsl(0, 0%, 100%);
 
     /*===== Fuente y tipografia =====*/
     --body-font: 'Poppins', sans-serif;
