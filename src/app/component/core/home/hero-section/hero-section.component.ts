@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollService } from '../../../../services/scroll/scroll.service';
 
 @Component({
   selector: 'app-hero-section',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './hero-section.component.scss'
 })
 export class HeroSectionComponent {
-
+  constructor(public scrollService: ScrollService){
+    
+  }
 }

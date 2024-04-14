@@ -1,7 +1,7 @@
 <section class="home bd-grid" id="home" animation="fadeInUp" delay="10" duration="1500" triggerOnce="true">
     <div class="home__data">
-        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Karan Duggal</span><br><ngx-typed-js [strings]="['Web Designer.', 'Mobile App.', 'Web Developer.']" [loop]="true" [typeSpeed]="70" [backSpeed]="30"><span class="typing"></span></ngx-typed-js></h1>
-        <a href="#contact" class="button">Contact</a>
+        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Karan Duggal</span><br><ngx-typed-js [strings]="['Web Designer.', 'Mobile App Developer.', 'Web Developer.']" [loop]="true" [typeSpeed]="70" [backSpeed]="30"><span class="typing"></span></ngx-typed-js></h1>
+        <a (click)="scrollService.scrollToElementById('contact')" class="button">Contact</a>
     </div>
     <div class="home__social">
         <a class="home__social-icon" href="https://leetcode.com/duggalkaran400/" target="_blank"><i class='bx bx-code-alt'></i></a>

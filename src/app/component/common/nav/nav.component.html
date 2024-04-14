@@ -1,7 +1,7 @@
 <nav>
     <div class="bd-grid">
         <ul>
-            <li><a href="#home">K.D</a></li>
+            <li><a (click)="scrollService.scrollToElementById('home')">K.D</a></li>
             <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('home')">Home</a></li>
             <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('about')">About</a></li>
             <li class="hideOnMobile underline"><a (click)="scrollService.scrollToElementById('skills')">Skills</a></li>
@@ -12,12 +12,12 @@
         </ul>
         <ul class="sidebar" [ngStyle]="isSidebarVisible ? {display:'flex'} : {display:'none'}">
             <li (click)="changeSidebarStatus()"><a><i class='bx bx-x'></i></a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Experience</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a (click)="scrollService.scrollToElementById('home')">Home</a></li>
+            <li><a (click)="scrollService.scrollToElementById('about')">About</a></li>
+            <li><a (click)="scrollService.scrollToElementById('skills')">Skills</a></li>
+            <li><a (click)="scrollService.scrollToElementById('experience')">Experience</a></li>
+            <li><a (click)="scrollService.scrollToElementById('work')">Work</a></li>
+            <li><a (click)="scrollService.scrollToElementById('contact')">Contact</a></li>
         </ul>
     </div>
 </nav>
