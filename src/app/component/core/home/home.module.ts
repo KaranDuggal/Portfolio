@@ -11,7 +11,8 @@ import { SkillSectionComponent } from './skill-section/skill-section.component';
 import { ExperienceSectionComponent } from './experience-section/experience-section.component';
 import { WorkSectionComponent } from './work-section/work-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
     CommonModule,
     HomeRoutingModule,
     DirectivesModule,
-    NgxTypedJsModule
+    NgxTypedJsModule,
+    MatCardModule, 
+    MatButtonModule
   ]
 })
 export class HomeModule { }
