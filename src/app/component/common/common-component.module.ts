@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoadingComponent } from './loading/loading.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -10,15 +12,18 @@ import { LoadingComponent } from './loading/loading.component';
   declarations: [
     NavComponent,
     FooterComponent,
-    LoadingComponent
+    LoadingComponent,
+    CarouselComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbModule
   ],
   exports: [
     NavComponent,
     FooterComponent,
-    LoadingComponent
+    LoadingComponent,
+    CarouselComponent
   ]
 })
 export class CommonComponentModule { }
