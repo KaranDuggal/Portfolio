@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-work-section',
@@ -20,19 +20,18 @@ export class WorkSectionComponent {
       ]
     },
     {
-      projectName: 'Remoteco.com',
+      projectName: 'Prosmarketplace.com',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
       images:[
-        'assets/images/dazn-1.png',
-        'assets/images/dazn-2.png',
-        'assets/images/dazn-3.png',
-        'assets/images/dazn-4.png',
-        'assets/images/dazn-5.png',
-        'assets/images/dazn-6.png'
+        'assets/images/prosmarketplace-1.png',
+        'assets/images/prosmarketplace-2.png',
+        'assets/images/prosmarketplace-3.png',
+        'assets/images/prosmarketplace-4.png',
+        'assets/images/prosmarketplace-5.png',
       ]
     },
     {
-      projectName: 'Prosmarketplace.com/',
+      projectName: 'Remoteco.com',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
       images:[
         'assets/images/dazn-1.png',
