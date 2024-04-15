@@ -69,15 +69,11 @@ export class WorkSectionComponent {
       ]
     },
     {
-      projectName: 'DAZN',
+      projectName: 'Himalayan Creamery',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
       images:[
-        'assets/images/dazn/dazn-1.png',
-        'assets/images/dazn/dazn-2.png',
-        'assets/images/dazn/dazn-3.png',
-        'assets/images/dazn/dazn-4.png',
-        'assets/images/dazn/dazn-5.png',
-        'assets/images/dazn/dazn-6.png'
+        'assets/images/himalayan-creamery/himalayan-creamery-1.png',
+        'assets/images/himalayan-creamery/himalayan-creamery-2.png'
       ]
     }
   ]
