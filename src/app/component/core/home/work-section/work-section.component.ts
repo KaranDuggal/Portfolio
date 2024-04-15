@@ -34,12 +34,12 @@ export class WorkSectionComponent {
       projectName: 'Remoteco.com',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
       images:[
-        'assets/images/dazn-1.png',
-        'assets/images/dazn-2.png',
-        'assets/images/dazn-3.png',
-        'assets/images/dazn-4.png',
-        'assets/images/dazn-5.png',
-        'assets/images/dazn-6.png'
+        'assets/images/remoteco-1.png',
+        'assets/images/remoteco-2.png',
+        'assets/images/remoteco-3.png',
+        'assets/images/remoteco-4.png',
+        'assets/images/remoteco-5.png',
+        'assets/images/remoteco-6.png'
       ]
     },
     {
