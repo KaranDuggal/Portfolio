@@ -11,7 +11,7 @@ export class WorkSectionComponent {
   constructor(private ngbModal: NgbModal){
     
   }
-  works:Array<any> = [
+  mainWork:Array<any> = [
     {
       projectName: 'DAZN',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
@@ -80,10 +80,22 @@ export class WorkSectionComponent {
         'assets/images/himalayan-creamery/himalayan-creamery-1.png',
         'assets/images/himalayan-creamery/himalayan-creamery-2.png'
       ]
+    },
+    {
+      projectName: 'Himalayan Creamery',
+      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      images:[
+        'assets/images/himalayan-creamery/himalayan-creamery-1.png',
+        'assets/images/himalayan-creamery/himalayan-creamery-2.png'
+      ]
     }
-  ]
+  ] 
+  works:Array<any> = this.mainWork.splice(0,3)
   openProjectDetails(projectDetail:any){
     const modalRef = this.ngbModal.open(ProjectDetailsModelComponent,{size: 'lg', windowClass: 'modal-xl'});
     modalRef.componentInstance.projectDetail = projectDetail;
+  }
+  loadMore(){
+    this.works.push(...this.mainWork.splice(0,3))
   }
 }
