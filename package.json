@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /Portfolio/",
+    "build": "ng build --base-href /Portfolio/ && rm -rf docs/* && mv dist/portfolio/browser/* docs && mv dist/portfolio/3rdpartylicenses.txt docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
