@@ -5,15 +5,15 @@ import { FooterComponent } from './footer/footer.component';
 import { LoadingComponent } from './loading/loading.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
+import { ProjectDetailsModelComponent } from './models/project-details/project-details-model.component';
 
 @NgModule({
   declarations: [
     NavComponent,
     FooterComponent,
     LoadingComponent,
-    CarouselComponent
+    CarouselComponent,
+    ProjectDetailsModelComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +23,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavComponent,
     FooterComponent,
     LoadingComponent,
-    CarouselComponent
+    CarouselComponent,
+    ProjectDetailsModelComponent
   ]
 })
 export class CommonComponentModule { }

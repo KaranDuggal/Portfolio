@@ -1,5 +1,5 @@
 <section class="work section" id="work">
-    <h2 class="section-title">Work</h2>
+    <h2 class="section-title">Projects</h2>
     <div class="work__container bd-grid">
         @for(work of works; track work){
             <mat-card>
@@ -11,7 +11,7 @@
                   <p>{{work.description}}</p>
                 </mat-card-content>
                 <mat-card-actions align="end">
-                  <button mat-stroked-button>READ MORE</button>
+                  <button mat-stroked-button (click)="openProjectDetails(work)">READ MORE</button>
                 </mat-card-actions>
             </mat-card>
         }  

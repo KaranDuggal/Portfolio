@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectDetailsModelComponent } from '../../../common/models/project-details/project-details-model.component';
 
 @Component({
   selector: 'app-work-section',
@@ -6,6 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './work-section.component.scss'
 })
 export class WorkSectionComponent {
+  constructor(private ngbModal: NgbModal){
+    
+  }
   works:Array<any> = [
     {
       projectName: 'DAZN',
@@ -77,4 +82,8 @@ export class WorkSectionComponent {
       ]
     }
   ]
+  openProjectDetails(projectDetail:any){
+    const modalRef = this.ngbModal.open(ProjectDetailsModelComponent,{size: 'lg', windowClass: 'modal-xl'});
+    modalRef.componentInstance.projectDetail = projectDetail;
+  }
 }
