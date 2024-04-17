@@ -15,6 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { CommonComponentModule } from '../../common/common-component.module';
 import { MatDividerModule } from '@angular/material/divider';
+import { PipesModule } from '../../../pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatCardModule, 
     MatButtonModule,
     MatDividerModule,
-    CommonComponentModule
+    CommonComponentModule,
+    PipesModule
   ]
 })
 export class HomeModule { }
