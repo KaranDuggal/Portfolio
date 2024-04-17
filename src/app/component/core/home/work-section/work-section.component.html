@@ -8,7 +8,7 @@
                     <mat-card-title>{{work.projectName}}</mat-card-title>
                   </mat-card-header>
                 <mat-card-content>
-                  <p>{{work.description}}</p>
+                  <p>{{work.description | limitToDots:54}}</p>
                 </mat-card-content>
                 <mat-card-actions align="end">
                   <button mat-stroked-button (click)="openProjectDetails(work)">READ MORE</button>

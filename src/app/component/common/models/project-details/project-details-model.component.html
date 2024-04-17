@@ -4,11 +4,19 @@
 </div>
 <div class="modal-body">
     <app-carousel [showNavigationIndicators]="true" [showNavigationArrows]="true" [images]="projectDetail.images"></app-carousel>
-    <h2>Task</h2>
+    <p class="my-3">{{projectDetail.description}}</p>
+    <h4>Task</h4>
     <ul>
-        <li>test</li>
+        @for(task of projectDetail.tasks; track task){
+            <li>{{task}}</li>
+        }
     </ul>
     <h2>responsibility's</h2>
+    <ul>
+        @for(responsibility of projectDetail.responsibilities; track responsibility){
+            <li>{{responsibility}}</li>
+        }
+    </ul>
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
