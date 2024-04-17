@@ -14,7 +14,14 @@ export class WorkSectionComponent {
   mainWork:Array<any> = [
     {
       projectName: 'DAZN',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      shortDescription: 'test',
+      description: 'Led redesign of DAZN website, optimizing UI/UX for enhanced sports streaming experience. Implemented responsive layouts, intuitive navigation, and dynamic content modules. Contributed to increased user engagement and satisfaction.',
+      tasks:[
+        "this is my task"
+      ],
+      responsibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/dazn/dazn-1.png',
         'assets/images/dazn/dazn-2.png',
@@ -26,7 +33,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Prosmarketplace.com',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/prosmarketplace/prosmarketplace-1.png',
         'assets/images/prosmarketplace/prosmarketplace-2.png',
@@ -37,7 +51,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Remoteco.com',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/remoteco/remoteco-1.png',
         'assets/images/remoteco/remoteco-2.png',
@@ -49,7 +70,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Onpurposecubed',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/onpurposecubed/lms-1.png',
         'assets/images/onpurposecubed/lms-2.png',
@@ -63,7 +91,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'OnpurposeLMS',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/dazn/dazn-1.png',
         'assets/images/dazn/dazn-2.png',
@@ -75,7 +110,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Himalayan Creamery',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/himalayan-creamery/himalayan-creamery-1.png',
         'assets/images/himalayan-creamery/himalayan-creamery-2.png'
@@ -83,7 +125,14 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Himalayan Creamery',
+      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      tasks:[
+        "this is my task"
+      ],
+      resposibilities:[
+        'this is my responsibilities'
+      ],
       images:[
         'assets/images/himalayan-creamery/himalayan-creamery-1.png',
         'assets/images/himalayan-creamery/himalayan-creamery-2.png'
