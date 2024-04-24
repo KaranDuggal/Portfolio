@@ -1,0 +1,2 @@
+git push && git switch main && git merge dev && git push && npm run build && git add . && git commit -m 'feat: build upload' && git push &
+& git switch dev
