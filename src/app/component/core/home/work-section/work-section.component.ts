@@ -14,7 +14,7 @@ export class WorkSectionComponent {
   mainWork:Array<any> = [
     {
       projectName: 'DAZN',
-      description: 'Led redesign of DAZN website, optimizing UI/UX for enhanced sports streaming experience. Implemented responsive layouts, intuitive navigation, and dynamic content modules. Contributed to increased user engagement and satisfaction.',
+      description: 'Stream live and on-demand sports anytime, anywhere on your favorite devices.',
       link:'https://www.dazn.com/',
       tech:[
         'Nodejs',
@@ -30,7 +30,7 @@ export class WorkSectionComponent {
         'Cloud Watch'
       ],
       tasks:[
-        "Troubleshot and resolved bugs in the Rail-Service.",
+        "Troubleshot and resolved bugs in the Rail-Service.(Rail-Service is responsible for content tile.)",
         "Implemented real-time pager-duty alerts to ensure timely detection and resolution of live article visibility issues during scheduled kick-off times.",
         "Optimized materialized view refresh performance in RDS by creating a sub table from the main article table, resulting in a remarkable 30% improvement in refresh time.",
         "Expanded rail service functionality by introducing a new provider mode, enhancing article filtering capabilities and enriching user experience.",
@@ -50,7 +50,7 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Prosmarketplace.com',
-      description: `Prosmarketplace serves as your gateway to remote job opportunities. Whether you're a freelancer seeking new projects or an employer in need of talented professionals, Prosmarketplace offers a platform where you can connect and collaborate seamlessly. Explore remote job listings and start your search for the perfect opportunity today.`,
+      description: `ProsMarketplace is improved version of remoteco. it connects businesses with remote workers in Latin America for tasks like virtual assistance, graphic design, and web development.  In short, it's a platform to hire remote freelancers in Latin America.`,
       link:'https://prosmarketplace.com/',
       tech:[
         'Angular',
@@ -80,7 +80,7 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Remoteco.com',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      description: `Remoteco connects businesses with remote workers in Latin America for tasks like virtual assistance, graphic design, and web development.  In short, it's a platform to hire remote freelancers in Latin America.`,
       link:'https://remoteco.com/',
       tech:[
         'Angular',

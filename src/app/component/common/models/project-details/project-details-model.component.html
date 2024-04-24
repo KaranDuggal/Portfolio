@@ -1,12 +1,14 @@
 <div class="modal-header">
-    <h4 class="modal-title">{{projectDetail.projectName}}</h4>
+    <h4 class="modal-title">
+        {{projectDetail.projectName}}
+        @if(projectDetail.link){
+            <a class="home__social-icon" href="{{projectDetail.link}}" target="_blank"><i class='bx bx-link'></i></a>
+        }
+    </h4>
     <button type="button" class="btn-close" (click)="activeModal.dismiss('Cross click')"></button>
 </div>
 <div class="modal-body">
     <app-carousel [showNavigationIndicators]="true" [showNavigationArrows]="true" [images]="projectDetail.images"></app-carousel>
-    @if(projectDetail.link){
-        <div><a href="{{projectDetail.link}}" target="_blank">Link</a></div>
-    }
     <p>{{projectDetail.description}}</p>
     <h4>Task</h4>
     <ul>
