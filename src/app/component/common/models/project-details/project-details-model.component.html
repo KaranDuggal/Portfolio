@@ -1,22 +1,31 @@
 <div class="modal-header">
     <h4 class="modal-title">{{projectDetail.projectName}}</h4>
-    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+    <button type="button" class="btn-close" (click)="activeModal.dismiss('Cross click')"></button>
 </div>
 <div class="modal-body">
     <app-carousel [showNavigationIndicators]="true" [showNavigationArrows]="true" [images]="projectDetail.images"></app-carousel>
-    <p class="my-3">{{projectDetail.description}}</p>
+    @if(projectDetail.link){
+        <div><a href="{{projectDetail.link}}" target="_blank">Link</a></div>
+    }
+    <p>{{projectDetail.description}}</p>
     <h4>Task</h4>
     <ul>
         @for(task of projectDetail.tasks; track task){
             <li>{{task}}</li>
         }
     </ul>
-    <h2>responsibility's</h2>
+    <!-- <h2>responsibility's</h2>
     <ul>
         @for(responsibility of projectDetail.responsibilities; track responsibility){
             <li>{{responsibility}}</li>
         }
-    </ul>
+    </ul> -->
+    <h2>Tech Stack</h2>
+    <div class="skill-container">
+        @for (tech of projectDetail.tech; track tech ) {
+            <div class="skill">{{tech}}</div>
+        }
+    </div>
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>

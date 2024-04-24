@@ -14,10 +14,27 @@ export class WorkSectionComponent {
   mainWork:Array<any> = [
     {
       projectName: 'DAZN',
-      shortDescription: 'test',
       description: 'Led redesign of DAZN website, optimizing UI/UX for enhanced sports streaming experience. Implemented responsive layouts, intuitive navigation, and dynamic content modules. Contributed to increased user engagement and satisfaction.',
+      link:'https://www.dazn.com/',
+      tech:[
+        'Nodejs',
+        'TypeScript',
+        'javaScript',
+        'lambda',
+        'Kinesis Data Streams',
+        'SNS',
+        'SQS',
+        'DynamoDB',
+        'RDS',
+        'Postgres DataBase',
+        'Cloud Watch'
+      ],
       tasks:[
-        "this is my task"
+        "Troubleshot and resolved bugs in the Rail-Service.",
+        "Implemented real-time pager-duty alerts to ensure timely detection and resolution of live article visibility issues during scheduled kick-off times.",
+        "Optimized materialized view refresh performance in RDS by creating a sub table from the main article table, resulting in a remarkable 30% improvement in refresh time.",
+        "Expanded rail service functionality by introducing a new provider mode, enhancing article filtering capabilities and enriching user experience.",
+        "Developed an automated monitoring solution using Puppeteer, enabling seamless screenshot capture of the homepage to monitor real-time updates and ensure optimal visibility of live articles.",
       ],
       responsibilities:[
         'this is my responsibilities'
@@ -33,8 +50,20 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Prosmarketplace.com',
-      shortDescription: 'test',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      description: `Prosmarketplace serves as your gateway to remote job opportunities. Whether you're a freelancer seeking new projects or an employer in need of talented professionals, Prosmarketplace offers a platform where you can connect and collaborate seamlessly. Explore remote job listings and start your search for the perfect opportunity today.`,
+      link:'https://prosmarketplace.com/',
+      tech:[
+        'Angular',
+        'Nodejs',
+        'TypeScript',
+        'JavaScript',
+        'ExpressJs',
+        'socket.io',
+        'Postgres Database',
+        'MongoDB',
+        'Stripe',
+        'AWS EC2'
+      ],
       tasks:[
         "this is my task"
       ],
@@ -51,12 +80,27 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Remoteco.com',
-      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
-      tasks:[
-        "this is my task"
+      link:'https://remoteco.com/',
+      tech:[
+        'Angular',
+        'Nodejs',
+        'TypeScript',
+        'JavaScript',
+        'ExpressJs',
+        'socket.io',
+        'Postgres Database',
+        'MongoDB',
+        'Stripe',
+        'AWS EC2'
       ],
-      resposibilities:[
+      tasks:[
+        "Troubleshot and resolved bugs in the website.",
+        "Add new functionality based on client’s requirement",
+        "Implemented an automated testing strategy using Selenium WebDriver to enhance software quality and streamline testing processes.",
+        "Angular is being used on the front-end. On the back-end, ExpressJs, Postgres, and MongoDB are used. and Jira for task management.",
+      ],
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
@@ -70,8 +114,11 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Onpurposecubed',
-      shortDescription: 'test',
-      description: 'The Shiba Inu is the smallest of the',
+      description: 'Remoteco.com served as the predecessor to Prosmarketplace.com,',
+      link:'https://www.onpurposecubed.com/',
+      tech:[
+        'Nodejs'
+      ],
       tasks:[
         "this is my task"
       ],
@@ -91,8 +138,11 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'OnpurposeLMS',
-      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      link:'',
+      tech:[
+        'Nodejs'
+      ],
       tasks:[
         "this is my task"
       ],
@@ -110,8 +160,11 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Himalayan Creamery',
-      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      link:'https://play.google.com/store/apps/details?id=com.mrmilkman.himalayancreamery',
+      tech:[
+        'Nodejs'
+      ],
       tasks:[
         "this is my task"
       ],
@@ -125,8 +178,11 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Himalayan Creamery',
-      shortDescription: 'test',
       description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      link:'',
+      tech:[
+        'Nodejs'
+      ],
       tasks:[
         "this is my task"
       ],
