@@ -209,6 +209,26 @@ export class WorkSectionComponent {
         'assets/images/himalayan-creamery/himalayan-creamery-1.png',
         'assets/images/himalayan-creamery/himalayan-creamery-2.png'
       ]
+    },
+    {
+      projectName: 'Interview Panel',
+      description: 'PoptScan is a dynamic property selling platform designed to help users find their ideal home based on various factors such as lifestyle, luxury, mindset, and value. With a user-friendly interface and advanced search features',
+      link:'https://poptscan.link/',
+      tech:[
+        'Nodejs',
+        'MongoDB',
+        'AWS EC2'
+      ],
+      tasks:[
+        "this is my task"
+      ],
+      responsibilities:[
+        'this is my responsibilities'
+      ],
+      images:[
+        'assets/images/himalayan-creamery/himalayan-creamery-1.png',
+        'assets/images/himalayan-creamery/himalayan-creamery-2.png'
+      ]
     }
   ] 
   works:Array<any> = this.mainWork.splice(0,3)
