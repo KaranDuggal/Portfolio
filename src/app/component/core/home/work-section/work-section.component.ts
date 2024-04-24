@@ -92,6 +92,7 @@ export class WorkSectionComponent {
         'Postgres Database',
         'MongoDB',
         'Stripe',
+        'PayPal Payment Gateway',
         'AWS EC2'
       ],
       tasks:[
@@ -114,15 +115,21 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Onpurposecubed',
-      description: 'Remoteco.com served as the predecessor to Prosmarketplace.com,',
+      description: 'Empowered emerging leaders through a Learn-Live-Lead program, fostering positive impact in faith-based communities.',
       link:'https://www.onpurposecubed.com/',
       tech:[
-        'Nodejs'
+        'Angular',
+        'NodeJs',
+        'ExpressJs',
+        'Socket.io',
+        'MongoDB',
+        'AWS EC2',
+        'Mux',
       ],
       tasks:[
         "this is my task"
       ],
-      resposibilities:[
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
@@ -137,16 +144,20 @@ export class WorkSectionComponent {
       ]
     },
     {
-      projectName: 'OnpurposeLMS',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      projectName: 'Health care Application',
+      description: 'Empowering data-driven healthcare. Secure patient data management for informed diagnoses & treatment.',
       link:'',
       tech:[
-        'Nodejs'
+        'Angular',
+        'Nodejs',
+        'ExpressJs',
+        'MongoDB',
+        'AWS EC2'
       ],
       tasks:[
         "this is my task"
       ],
-      resposibilities:[
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
@@ -160,15 +171,18 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Himalayan Creamery',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
+      description: 'Delivering fresh, pure milk straight from the farm to your doorstep. Order, schedule deliveries, and manage your account conveniently.',
       link:'https://play.google.com/store/apps/details?id=com.mrmilkman.himalayancreamery',
       tech:[
-        'Nodejs'
+        'Nodejs',
+        'ExpressJs',
+        'PayPal Payment Gateway',
+        'AWS EC2'
       ],
       tasks:[
         "this is my task"
       ],
-      resposibilities:[
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
@@ -177,16 +191,18 @@ export class WorkSectionComponent {
       ]
     },
     {
-      projectName: 'Himalayan Creamery',
-      description: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
-      link:'',
+      projectName: 'Popt',
+      description: 'PoptScan is a dynamic property selling platform designed to help users find their ideal home based on various factors such as lifestyle, luxury, mindset, and value. With a user-friendly interface and advanced search features',
+      link:'https://poptscan.link/',
       tech:[
-        'Nodejs'
+        'Nodejs',
+        'MongoDB',
+        'AWS EC2'
       ],
       tasks:[
         "this is my task"
       ],
-      resposibilities:[
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
