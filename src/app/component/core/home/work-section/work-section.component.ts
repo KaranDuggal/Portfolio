@@ -161,12 +161,9 @@ export class WorkSectionComponent {
         'this is my responsibilities'
       ],
       images:[
-        'assets/images/dazn/dazn-1.png',
-        'assets/images/dazn/dazn-2.png',
-        'assets/images/dazn/dazn-3.png',
-        'assets/images/dazn/dazn-4.png',
-        'assets/images/dazn/dazn-5.png',
-        'assets/images/dazn/dazn-6.png'
+        'assets/images/health-care/health-care-1.png',
+        'assets/images/health-care/health-care-2.png',
+        'assets/images/health-care/health-care-3.png'
       ]
     },
     {
@@ -206,8 +203,8 @@ export class WorkSectionComponent {
         'this is my responsibilities'
       ],
       images:[
-        'assets/images/himalayan-creamery/himalayan-creamery-1.png',
-        'assets/images/himalayan-creamery/himalayan-creamery-2.png'
+        'assets/images/popt/popt-1.png',
+        'assets/images/popt/popt-2.png'
       ]
     },
     {
