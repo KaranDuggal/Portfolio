@@ -228,7 +228,7 @@ export class WorkSectionComponent {
       ]
     }
   ] 
-  works:Array<any> = this.mainWork.splice(0,3)
+  works:Array<any> = this.mainWork.splice(0,6)
   openProjectDetails(projectDetail:any){
     const modalRef = this.ngbModal.open(ProjectDetailsModelComponent,{size: 'lg', windowClass: 'modal-xl'});
     modalRef.componentInstance.projectDetail = projectDetail;
