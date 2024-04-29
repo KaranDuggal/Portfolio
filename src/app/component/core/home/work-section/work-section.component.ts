@@ -14,7 +14,7 @@ export class WorkSectionComponent {
   mainWork:Array<any> = [
     {
       projectName: 'DAZN',
-      description: 'Stream live and on-demand sports anytime, anywhere on your favorite devices.',
+      description: 'It\'s Stream live and on-demand sports anytime, anywhere on your favorite devices.',
       link:'https://www.dazn.com/',
       tech:[
         'Nodejs',
@@ -65,9 +65,11 @@ export class WorkSectionComponent {
         'AWS EC2'
       ],
       tasks:[
-        "this is my task"
+        'Improve chat system fix bugs',
+        'Fix Subscription bug',
+        'implement employer-worker interview functionality',
       ],
-      resposibilities:[
+      responsibilities:[
         'this is my responsibilities'
       ],
       images:[
@@ -99,6 +101,9 @@ export class WorkSectionComponent {
         "Troubleshot and resolved bugs in the website.",
         "Add new functionality based on client’s requirement",
         "Implemented an automated testing strategy using Selenium WebDriver to enhance software quality and streamline testing processes.",
+        'Improve chat system fix bugs',
+        'Fix Subscription bug',
+        'implement employer-worker interview functionality',
         "Angular is being used on the front-end. On the back-end, ExpressJs, Postgres, and MongoDB are used. and Jira for task management.",
       ],
       responsibilities:[
