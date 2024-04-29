@@ -210,7 +210,7 @@ export class WorkSectionComponent {
     {
       projectName: 'Interview Panel',
       description: 'PoptScan is a dynamic property selling platform designed to help users find their ideal home based on various factors such as lifestyle, luxury, mindset, and value. With a user-friendly interface and advanced search features',
-      link:'https://poptscan.link/',
+      link:'',
       tech:[
         'Nodejs',
         'MongoDB',
@@ -223,8 +223,9 @@ export class WorkSectionComponent {
         'this is my responsibilities'
       ],
       images:[
-        'assets/images/himalayan-creamery/himalayan-creamery-1.png',
-        'assets/images/himalayan-creamery/himalayan-creamery-2.png'
+        'assets/images/interview-panel/interview-panel-1.png',
+        'assets/images/interview-panel/interview-panel-2.png',
+        'assets/images/interview-panel/interview-panel-3.png',
       ]
     }
   ] 
