@@ -9,24 +9,26 @@
 </div>
 <div class="modal-body">
     <app-carousel [showNavigationIndicators]="true" [showNavigationArrows]="true" [images]="projectDetail.images"></app-carousel>
-    <p>{{projectDetail.description}}</p>
-    <h4>Task</h4>
-    <ul>
-        @for(task of projectDetail.tasks; track task){
-            <li>{{task}}</li>
-        }
-    </ul>
-    <!-- <h2>responsibility's</h2>
-    <ul>
-        @for(responsibility of projectDetail.responsibilities; track responsibility){
-            <li>{{responsibility}}</li>
-        }
-    </ul> -->
-    <h2>Tech Stack</h2>
-    <div class="skill-container">
-        @for (tech of projectDetail.tech; track tech ) {
-            <div class="skill">{{tech}}</div>
-        }
+    <div class="description">
+        <p>{{projectDetail.description}}</p>
+        <h4>Task</h4>
+        <ul>
+            @for(task of projectDetail.tasks; track task){
+                <li>{{task}}</li>
+            }
+        </ul>
+        <!-- <h2>responsibility's</h2>
+        <ul>
+            @for(responsibility of projectDetail.responsibilities; track responsibility){
+                <li>{{responsibility}}</li>
+            }
+        </ul> -->
+        <h2>Tech Stack</h2>
+        <div class="skill-container">
+            @for (tech of projectDetail.tech; track tech ) {
+                <div class="skill">{{tech}}</div>
+            }
+        </div>
     </div>
 </div>
 <div class="modal-footer">
