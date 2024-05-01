@@ -75,3 +75,10 @@
         }
     }
 }
+
+@media(max-width: 767px){
+    .experience__container{
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+}
