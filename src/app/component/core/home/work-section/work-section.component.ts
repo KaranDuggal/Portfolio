@@ -65,9 +65,10 @@ export class WorkSectionComponent {
         'AWS EC2'
       ],
       tasks:[
-        'Improve chat system fix bugs',
-        'Fix Subscription bug',
-        'implement employer-worker interview functionality',
+        'Design UI from scratch',
+        'Yearly subscription functionality add',
+        'push notification functionality add',
+        'Angular version upgrade'
       ],
       responsibilities:[
         'this is my responsibilities'
@@ -104,7 +105,6 @@ export class WorkSectionComponent {
         'Improve chat system fix bugs',
         'Fix Subscription bug',
         'implement employer-worker interview functionality',
-        "Angular is being used on the front-end. On the back-end, ExpressJs, Postgres, and MongoDB are used. and Jira for task management.",
       ],
       responsibilities:[
         'this is my responsibilities'
@@ -127,12 +127,14 @@ export class WorkSectionComponent {
         'NodeJs',
         'ExpressJs',
         'Socket.io',
+        'Mux',
         'MongoDB',
         'AWS EC2',
-        'Mux',
       ],
       tasks:[
-        "this is my task"
+        "Implement mux for live streaming and watching watching videos",
+        "Implement group chat system",
+        "Implement video lecture, audio lecture, quiz functionality"
       ],
       responsibilities:[
         'this is my responsibilities'
