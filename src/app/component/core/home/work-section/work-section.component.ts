@@ -68,7 +68,7 @@ export class WorkSectionComponent {
         'Design UI from scratch',
         'Yearly subscription functionality add',
         'push notification functionality add',
-        'Angular version upgrade'
+        'Angular version upgrade from v8 to v16'
       ],
       responsibilities:[
         'this is my responsibilities'
@@ -92,7 +92,7 @@ export class WorkSectionComponent {
         'JavaScript',
         'ExpressJs',
         'socket.io',
-        'Postgres Database',
+        'PostgresDB',
         'MongoDB',
         'Stripe',
         'PayPal Payment Gateway',
@@ -103,7 +103,7 @@ export class WorkSectionComponent {
         "Add new functionality based on client’s requirement",
         "Implemented an automated testing strategy using Selenium WebDriver to enhance software quality and streamline testing processes.",
         'Improve chat system fix bugs',
-        'Fix Subscription bug',
+        'Fix Subscription auto-renew bug',
         'implement employer-worker interview functionality',
       ],
       responsibilities:[
@@ -134,7 +134,8 @@ export class WorkSectionComponent {
       tasks:[
         "Implement mux for live streaming and watching watching videos",
         "Implement group chat system",
-        "Implement video lecture, audio lecture, quiz functionality"
+        "Implement video lecture, audio lecture, quiz functionality",
+        "Implement role-based access control"
       ],
       responsibilities:[
         'this is my responsibilities'
@@ -162,10 +163,13 @@ export class WorkSectionComponent {
         'AWS EC2'
       ],
       tasks:[
-        "this is my task"
+        "Designing and developing RESTful APIs to serve frontend",
+        "Designed database schema for storing healthcare-related data (patients, appointments, treatment’s, diagnosis’s, etc.).",
+        "Implemented error handling, input validation, and data sanitization within APIs.",
+        "Implement role-based access control"
       ],
       responsibilities:[
-        'this is my responsibilities'
+       
       ],
       images:[
         'assets/images/health-care/health-care-1.png',
@@ -184,7 +188,11 @@ export class WorkSectionComponent {
         'AWS EC2'
       ],
       tasks:[
-        "this is my task"
+        "Designing and developing RESTful APIs for managing dairy product inventory, orders, deliveries, and user accounts.",
+        "implement in-build wallet functionality",
+        "Ensuring efficient data storage, retrieval, and management for dairy products, orders, customer information, and delivery logistics.",
+        "Creating API endpoints to handle payment requests from the frontend or delivery app.",
+        "Convert backend of Himalayan Creamery dairy app from PHP to Node.js: refactor PHP logic, migrate database, develop Node.js APIs, integrate third-party services, test and deploy."
       ],
       responsibilities:[
         'this is my responsibilities'
