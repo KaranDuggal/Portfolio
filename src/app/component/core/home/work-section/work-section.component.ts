@@ -209,10 +209,13 @@ export class WorkSectionComponent {
       tech:[
         'Nodejs',
         'MongoDB',
-        'AWS EC2'
+        'AWS EC2',
+        'S3 bucket'
       ],
       tasks:[
-        "this is my task"
+        "Managed backend development and server setup on AWS EC2.",
+        "Implemented geo-fencing functionality.",
+        "Designed and implemented APIs."
       ],
       responsibilities:[
         'this is my responsibilities'
