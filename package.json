@@ -7,7 +7,7 @@
     "build": "ng build --base-href /Portfolio/ && rm -rf docs/* && mv dist/portfolio/browser/* docs && mv dist/portfolio/3rdpartylicenses.txt docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy-main": "git push && git switch main && git merge dev && git push && npm run build && git add . && git commit -m 'feat: build upload' && git push && git switch dev"
+    "deploy-main": "git push && git switch main && git merge origin dev && git push && npm run build && git add . && git commit -m 'feat: build upload' && git push && git switch dev"
   },
   "private": true,
   "dependencies": {
