@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './about-section.component.scss'
 })
 export class AboutSectionComponent {
-
+  technologies :Array<string> = ['Angular', 'NodeJS', 'ExpressJS', 'NestJs', 'MySql', 'Postgres', 'MongoDB', 'DynamoDB', 'GIT', 'AWS', 'Microsoft Azure', 'Flutter', 'DSA', 'EJS', 'HBS','Selenium - Webdriver for automation',]
+  projects:Array<string> =['Healthcare apps', 'Educational Application', 'E-commerce Application', 'Interview panel', 'Freelancing web-site', ]
+  experience:number = 4
 }
