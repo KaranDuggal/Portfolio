@@ -32,10 +32,10 @@ export class AlertService {
       return false
     })
   }
-  ok(Title:string = 'Info',Text:string,Icon: SweetAlertIcon = 'info'){
+  ok(Text:string, Title:string = 'Info', Icon: SweetAlertIcon = 'info'){
     return Swal.fire({
       title: Title,
-      text: Title,
+      text: Text,
       icon: Icon
     });
   }
