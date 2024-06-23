@@ -30,7 +30,6 @@ export class ExperienceSectionComponent {
         'Facilitate knowledge transfer and mentor junior developers.',
         'Design and implement user-friendly interfaces for Interview Panel.',
         'Implement role-based access control for Interview Panel users.',
-        'Develop candidate management features for Interview Panel.',
       ]
     },
     'Gsbitlabs':{
