@@ -227,15 +227,19 @@ export class WorkSectionComponent {
     },
     {
       projectName: 'Interview Panel',
-      description: 'PoptScan is a dynamic property selling platform designed to help users find their ideal home based on various factors such as lifestyle, luxury, mindset, and value. With a user-friendly interface and advanced search features',
+      description: 'Interview Panel project: HR effortlessly schedules, edits, and manages interviews, while interviewers efficiently rate candidates. Simplify your hiring process with real-time updates and seamless collaboration',
       link:'',
       tech:[
         'Nodejs',
+        'nestjs',
         'MongoDB',
+        'mysql',
         'AWS EC2'
       ],
       tasks:[
-        "this is my task"
+        "Manage backend and frontend development for the Interview Panel project.",
+        "Implement ngx-formly to enhance form reusability and streamline data input.",
+        "Implement role-based access control to ensure secure and efficient user management."
       ],
       responsibilities:[
         'this is my responsibilities'
