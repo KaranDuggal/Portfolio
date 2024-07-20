@@ -241,6 +241,7 @@ export class WorkSectionComponent {
         "Implement ngx-formly to enhance form reusability and streamline data input.",
         "Implement role-based access control to ensure secure and efficient user management."
       ],
+      
       responsibilities:[
         'this is my responsibilities'
       ],
