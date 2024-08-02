@@ -13,10 +13,11 @@ export class ExperienceSectionComponent {
       position: 'Software Engineer',
       duration: "Sep 2023 - Present",
       responsibilities: [
-        'Troubleshot and resolved bugs in the Rail-Service.',
+        "Developed an AWS Lambda function to automate the refresh process of materialized views based on different time intervals. This Lambda function retrieves the names of the materialized views to be refreshed from an SQS queue. The table names to be refreshed are provided by a separate configuration ingestion Lambda function.",
         'Implemented real-time pager-duty alerts to ensure timely detection and resolution of live article visibility issues during scheduled kick-off times.',
         'Optimized materialized view refresh performance in RDS by creating a sub table from the main article table, resulting in a remarkable 30% improvement in refresh time.',
         'Expanded rail service functionality by introducing a new provider mode, enhancing article filtering capabilities and enriching user experience.',
+        'Troubleshot and resolved bugs in the Rail-Service.',
         'Developed an automated monitoring solution using Puppeteer, enabling seamless screenshot capture of the homepage to monitor real-time updates and ensure optimal visibility of live articles.'
       ]
     },
